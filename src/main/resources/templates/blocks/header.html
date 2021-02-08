@@ -1,0 +1,16 @@
+<div th:fragment="header" xmlns:th="http://www.w3.org/1999/xhtml">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <a class="my-0 mr-md-auto font-weight-normal text-dark"href ="/main">Kyrgyz.Dev</a>
+        <nav class="col-5 d-flex justify-content-end align-items-center">
+            <a class="p-2 text-dark" href="/main">Main</a>
+            <a class="p-2 text-dark" href="/news">News</a>
+            <a class="p-2 text-dark" href="/companies">Companies</a>
+            <a class="p-2 text-dark" href="/work">Developers</a>
+            <a class="p-2 text-dark" href="/blog">Blog</a>
+        </nav>
+        <form th:action="@{/logout}" method="post">
+            <input type="submit" value="Sign Out"/>
+        </form>
+        </nav>
+    </div>
+</div>

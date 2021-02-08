@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5">
+    <h1 th:text="${title}"/>
+</div>
+<div class="container marketing">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Влад Бумага обогнал Ивангая по количеству просмотров на ютьюбе. <span class="text-muted"> Новости — 14 сентября, 10:32</span></h2>
+            <p class="lead">Эх, были времена, когда Ивангай был звездой не только русскоязычного ютьюба, но и ютьюба стран СНГ, постоянно бил новые рекорды и был у всех на слуху. Когда в 2016-м количество подписчиков его канала достигло 10 млн, все были в шоке. Когда общее количество просмотров его роликов перевалило за 2 млрд, все были в еще большем шоке. Вот только спустя несколько лет этим уже никого не удивишь. Видео самого Ивангая за это время посмотрели еще 1,63 млрд раз. И это неплохая цифра: Ваня все еще входит в топы, но уже не лидирует в них. Например, не так давно Ивангая обогнал Влад Бумага — ролики на его ютьюб-канале посмотрели более 3,68 млрд раз. Разница всего в 40 млн просмотров, подумаешь. </p>
+        </div>
+        <div class="col-md-5">
+            <a href="https://ibb.co/jZQWpXK"><img src="https://i.ibb.co/jZQWpXK/image.jpg" alt="image" width="500" height="500"></a>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">У Насти Ивлеевой 18 млн подписчиков в инстаграме. Теперь блогерша готовит новый сюрприз. <span class="text-muted"> Новости — 13 сентября, 15:50</span></h2>
+            <p class="lead">Казалось бы, всего три месяца назад Настя Ивлеева устроила праздник в честь того, что число подписчиков ее основного инстаграм-аккаунта перевалило за 17 млн. Тогда блогерша запустила фейерверк рядом с «Москва-Сити» и транслировала все это в прямом эфире. А сегодня у Насти новый праздник. Теперь на ее аккаунт подписано 18 млн человек. У себя в сторис Ивлеева рассказала, что уже готовит для поклонников новый сюрприз. Правда, на этот раз устраивать все придется не в Москве. Дело в том, что завтра Настя опять улетает на съемки шоу «Орел и решка».«Ребятушки, родные, любимые, спасибо вам огромное. Это же просто чудо-чудесное. Сегодня проснулась, а у меня праздник такой на странице: 18 миллионов. Осталось подумать, что же сделать на эту прекрасную цифру. Только делать это придется уже на расстоянии, но я обязательно что-нибудь придумаю для вас», — отметила Настя.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">«Ты знаешь, зачем я сюда приехал»: посмотрите, как тиктокеры достают работников McDonald’s песней Трэвиса Скотта.<span class="text-muted"> Новости — 13 сентября, 10:35</span></h2>
+            <p class="lead">Не успела коллаборация американского рэпера и McDonald’s запуститься, как тут же начала вируситься в социальных сетях. О совместном проекте Трэвиса Скотта с сетью фастфуд-ресторанов стало известно еще месяц назад. В августе в Сети ходили слухи, что McDonald’s собирается выпустить мерч и именной бургер в честь рэпера, однако по итогу коллаборация оказалась в разы масштабнее. Вместо одного сэндвича — целый обед из блюд, которые выбрал лично Трэвис Скотт.</p>
+        </div>
+        <div class="col-md-5">
+            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+</div>
+
+</main>
+<footer th:insert="blocks/footer :: footer"></footer>
+</body>
+</html>

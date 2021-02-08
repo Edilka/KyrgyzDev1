@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+
+<div class="container mt-5">
+    <h1 th:text="${title}"/>
+</div>
+<div class="container marketing">
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading">Свободные Вакансии</h2>
+            <h3> <span class="text-muted">Актуально на  22 сентября!</span></h3>
+            <p class="lead"> Junior Java Developer </p>
+            <p class="lead"> Middle Java Developer</p>
+            <p class="lead"> Frontend Java Developer</p>
+            <p class="lead"> Backand intern Developer</p>
+            <p><b>@mail:</b> sabernumberone@mail.ru </p>
+            <p><b>Наши Контакты:</b> +996500030000 </p>
+        </div>
+    </div>
+</div>
+</main>
+<footer th:insert="blocks/footer :: footer"></footer>
+</body>
+</html>
